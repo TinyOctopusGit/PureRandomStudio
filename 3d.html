@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>PureRandom Studios</title>
+        <link rel="stylesheet" href="w3.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="gallery.css">
+    </head>
+    <body>
+
+        <div class="w3-top">
+            <div class="w3-bar w3-dark-grey w3-large">
+                <a href="games.html" class="w3-bar-item w3-button w3-right w3-blue w3-hide-small"><i class="fa fa-gamepad"></i></a>
+                <a href="3d.html" class="w3-bar-item w3-button w3-right w3-blue w3-hide-small"><i class="fa fa-cube"></i></a>
+                <a href="index.html" class="w3-bar-item w3-button w3-right w3-blue w3-hide-small"><i class="fa fa-home"></i></a>
+                <a href="index.html" class="w3-bar-item w3-button w3-left">PureRandom Studios</a>
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+            </div>
+            <div id="demo" class="w3-bar-block w3-light-gray w3-hide w3-hide-large w3-hide-medium">
+                <a href="games.html" class="w3-bar-item w3-button w3-right"><i class="fa fa-gamepad"></i> Games</a>
+                <a href="3d.html" class="w3-bar-item w3-button w3-right"><i class="fa fa-cube"></i> 3D</a>
+                <a href="home.html" class="w3-bar-item w3-button w3-right"><i class="fa fa-home"></i> Home</a>
+              </div>
+        </div>
+
+        
+        <div class="w3-content w3-gray" style="max-width:500%; margin-top: 40px;">
+            <img class="mySlides w3-animate-fading" src="images/BlenderCottage.jpg" style="margin: auto; width: 100%;">
+            <img class="mySlides w3-animate-fading" src="images/PineForest.jpg" style="margin: auto; width: 100%;">
+        </div>
+        
+
+        <div class="w3-bar w3-dark-grey w3-padding-8">
+            <p style="margin-left: 3%;">3D art/projects - Image Gallery</p>
+        </div>
+
+        <div class="w3-card-4 w3-section w3-round w3-light-gray" style="max-width: 90%; margin: auto;">
+            <header class="w3-container w3-dark-gray w3-round">
+                <h1>Current Project</h1>
+            </header>
+            <div class="w3-row">
+                <div class="w3-half w3-center w3-large">
+                    <p>Making a James Bond style car chase.</p>
+                </div>
+                <div class="w3-half w3-center">
+                    <img src="images/PineForest.jpg" class="w3-round; w3-image" alt="PineForest">
+                </div>
+            </div>
+        </div>
+        <div class="w3-card-4 w3-section w3-round w3-light-gray" style="max-width: 90%; margin: auto;">
+            <header class="w3-container w3-dark-gray w3-round">
+                <h1>Image Gallery</h1>
+            </header>
+
+            <div class="main w3-section w3-center">
+
+                <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+                <button class="btn" onclick="filterSelection('vehicles')"> Vehicles</button>
+                <button class="btn" onclick="filterSelection('objects')"> Objects</button>
+                </div>
+    
+                <!-- Portfolio Gallery Grid -->
+
+                <div class="w3-row">
+                    <div class="w3-third">
+                        <div class="column nature">
+                            <div class="content">
+                            <img src="images/BlenderCottage.jpg" alt="Mountains"  class="w3-round; w3-image" style="width: 100%;">
+                            <h4>Mountains</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-third">
+                        <div class="column nature">
+                            <div class="content">
+                            <img src="images/BlenderCottage.jpg" alt="Mountains"  class="w3-round;" style="width: 100%;">
+                            <h4>Mountains</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-third">
+                        <div class="column nature">
+                            <div class="content">
+                            <img src="images/BlenderCottage.jpg" alt="Mountains"  class="w3-round; w3-image" style="width: 100%;">
+                            <h4>Mountains</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-third">
+                        <div class="column nature">
+                            <div class="content">
+                            <img src="images/BlenderCottage.jpg" alt="Mountains"  class="w3-round; w3-image" style="width: 100%;">
+                            <h4>Mountains</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-third">
+                        <div class="column nature">
+                            <div class="content">
+                            <img src="images/BlenderCottage.jpg" alt="Mountains"  class="w3-round; w3-image" style="width: 100%;">
+                            <h4>Mountains</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-third">
+                        <div class="column nature">
+                            <div class="content">
+                            <img src="images/BlenderCottage.jpg" alt="Mountains"  class="w3-round; w3-image" style="width: 100%;">
+                            <h4>Mountains</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-third">
+                        <div class="column nature">
+                            <div class="content">
+                            <img src="images/BlenderCottage.jpg" alt="Mountains"  class="w3-round; w3-image" style="width: 100%;">
+                            <h4>Mountains</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-third">
+                        <div class="column nature">
+                            <div class="content">
+                            <img src="images/BlenderCottage.jpg" alt="Mountains"  class="w3-round; w3-image" style="width: 100%;">
+                            <h4>Mountains</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="w3-container w3-section w3-dark-grey w3-center">
+            <p>PureRandom Studios</p>
+        </footer>
+
+        <script src="navjs.js"></script>
+        <script src="slides.js"></script>
+        <script src="gallery.js"></script>
+    </body>
+
+</html>
